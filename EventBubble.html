@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="parent">
+      <button class="Child">Parenet</button>
+    </div>
+  </body>
+</html>
+
+<script>
+  document.querySelector(".parent").addEventListener("click", function () {
+    console.log("Parenet is componets is clicked");
+
+    document
+      .querySelector(".Child")
+      .addEventListener("click", function (event) {
+        console.log("Child components is clicked");
+        event.stopPropagation();
+      });
+  });
+</script>

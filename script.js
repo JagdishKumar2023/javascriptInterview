@@ -75,6 +75,7 @@
 //     console.log(count);
 //     // outPut: 10
 //   }
+// console.log(count);
 // }
 
 // expample();
@@ -85,6 +86,7 @@
 // function expampleOfLet() {
 //   if (true) {
 //     let count = 15;
+
 //     console.log(count);
 //   }
 // }
@@ -97,3 +99,39 @@
 // const z = 10;
 // z = 30;
 // console.log(z);
+
+// Question: 4
+// What is Loop? What are the type of Loops in Javascript?
+//Ans: A loop is a programming way to run a set of instrution(code) repeatedly until a certain condition is met
+
+// Javascript Loop:-
+// 1) for, 2)while, 3)do-while, 4) for...of, 5) for...in
+
+// Question: 5
+// What is the difference between for, while, and do-while loops ?
+
+//USING FOR LOOP
+// Ans: For Loop allows to iterate a block of code a specific number  of times
+
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+
+//USING WHILE LOOP
+//While loop execute a block of code while a certain condition is true
+
+// let j = 5;
+// while (j <= 15) {
+//   console.log(j);
+//   j++;
+// }
+
+//USING DO-WHILE LOOP
+// The do-while loop is similar to the while loop except that the block of code is executed atleast once even if the condition is false
+
+let k = 0;
+
+do {
+  console.log(k);
+  k++;
+} while (k > 1);
